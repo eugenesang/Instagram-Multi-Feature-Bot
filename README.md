@@ -16,10 +16,14 @@
 ### Installation:
 
 1. Clone the repository:
+   ```sh
    git clone https://github.com/redianmarku/Instagram-Multi-Feature-Bot
+   ```
 
 2. Install the required dependencies:
-   `pip install -r requirements.txt`
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 ### Usage:
 
@@ -27,7 +31,11 @@
 
 2. Run the script:
 
-   These are the options that you can add in `python run.py` command:
+   These are the options that you can add in
+   ```sh
+   python run.py
+   ```
+   command:
 
    -h, --help show this help message and exit
    -a, --accounts Use multiple accounts
@@ -39,13 +47,19 @@
 
    Example commands:
 
-   - `python run.py -d -cm "Hello, this is a example message" -ht "python" -del 5` The bot will start to search for users in "python" hashtag and will send a message to each of them. The delay time between each message is 5 seconds.
+   - ```sh
+     python run.py -d -cm "Hello, this is a example message" -ht "python" -del 5
+     ```
+     The bot will start to search for users in "python" hashtag and will send a message to each of them. The delay time between each message is 5 seconds.
 
-   - `python run.py -c -cm "Nice post" -ht "beats" -del 8 -a` The bot will start to search for users in "beats" hashtag and will comment in the most recent posts to each of them. The delay time will be 8 seconds and also when you run command bot will ask you for the account you want to use because of "-a" param.
+   - ```sh
+     python run.py -c -cm "Nice post" -ht "beats" -del 8 -a
+     ```
+     The bot will start to search for users in "beats" hashtag and will comment in the most recent posts to each of them. The delay time will be 8 seconds and also when you run command bot will ask you for the account you want to use because of "-a" param.
 
-3. Follow the prompts in the terminal to provide necessary information, such as login credentials, comments, hashtags, etc.
+4. Follow the prompts in the terminal to provide necessary information, such as login credentials, comments, hashtags, etc.
 
-4. Sit back and let the bot automate the desired actions on Instagram!
+5. Sit back and let the bot automate the desired actions on Instagram!
 
 ### Notes:
 
